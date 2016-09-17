@@ -1,0 +1,17 @@
+
+		li{display:inline;}
+	img {padding: 10px,10px,10px,10px;
+		text-align: center;}	
+	body{
+		background: lightpink;
+		
+	}	
+	.center {
+    text-align: center;
+    border: 3px solid white;
+}
+	img {
+    display: block;
+    margin: 0 auto;
+}
+
