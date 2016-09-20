@@ -1,0 +1,46 @@
+h1 {
+	border: 1px solid black;
+}
+
+#containerFeatured {
+	border: 1px solid blue;
+	width: 100%;
+}
+#containerArticles {
+	width: 100%;
+}
+
+#leftColumn {
+	width: 30%;
+	float: left;
+}
+#centerColumn {
+	width: 30%;
+	float: left;
+}
+#rightColumn {
+	width: 30%;
+	float: left;
+}
+.article {
+	float: left;
+	width: 30%;
+	height: 95px;
+	background-color: grey;
+	margin: 5px;
+	padding: 8px;
+}
+.box {
+	background-color: grey;
+	color: black;
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 10px;
+	margin: 5px;
+}
+.clearFloat {
+	clear: both;
+}
+.column {
+	height: 400px;
+}

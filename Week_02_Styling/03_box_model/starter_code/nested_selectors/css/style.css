@@ -1,0 +1,23 @@
+.divClass {
+	color: red;
+}
+
+#some {
+	border: 1px solid red;
+}
+
+a {
+
+}
+
+.orange {
+	color: orange;
+}
+
+.greenBox {
+	border: 1px solid green;
+}
+
+.underline {
+	text-decoration: underline;
+}
