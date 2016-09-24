@@ -4,17 +4,27 @@ code {
 strong {
 	font-weight: bold;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 #notification {
 	background-color: blue;
 	color: white;
 	padding: 8px;
 }
+<<<<<<< Updated upstream
 
 .message {
 	border: 3px solid black;
 	color: white;
 	padding: 12px;
+=======
+.message {
+	border: 3px solid black;
+	color: white;
+	padding: 8px;
+>>>>>>> Stashed changes
 	border-radius: 8px;
 	margin-bottom: 10px;
 }
@@ -23,6 +33,7 @@ strong {
 	background-color: yellow;
 	color: black;
 }
+<<<<<<< Updated upstream
 
 .alert {
 	background-color: red;
@@ -31,3 +42,11 @@ strong {
 .success {
 	background-color: green;
 }
+=======
+.alert {
+	background-color: red;
+}
+.success {
+	background-color: green;
+}
+>>>>>>> Stashed changes
