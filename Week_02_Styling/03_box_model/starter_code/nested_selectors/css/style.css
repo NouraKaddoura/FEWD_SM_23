@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 .divClass {
 	color: red;
 }
@@ -21,23 +20,4 @@ a {
 
 .underline {
 	text-decoration: underline;
-=======
-em div {
-	display: inline;
-}
-p span {
-    border: 1px solid green;
-}
-
-em {
-    font-family: Arial;
-    color: purple;
-}
-
-blockquote p em {
-    text-decoration: underline;
-}
-#green-quote {
-	color:green;
->>>>>>> Stashed changes
 }

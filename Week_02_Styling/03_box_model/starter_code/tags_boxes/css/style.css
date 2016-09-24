@@ -1,5 +1,4 @@
 h1 {
-<<<<<<< Updated upstream
 	border: 3px solid black;
 	background-color: red;
 	padding: 100px;
@@ -22,43 +21,6 @@ li {
 code {
 	background-color: white;
 	color: black;
-=======
-	background-color: white;
-	padding: 5px 5px 5px 100px;
-	font-family: arial;
-	color: gray;
-	font-size: 48px;
-	letter-spacing: 5px;
-}
-p {
-	background-color: ;
-	color: black;
-	padding: 10px 5px 20px 100px;
-	font-family: times;
-	font-size: 12px;
-}
-h2{
-	background-color: white;
-	padding: 5px 5px 5px 100px;
-	font-family: times;
-	color: black;
-	font-size: 18px;
-}
-ol{
-	padding: 0px 0px 0px 100px;
-	font-family: times;
-	color: black;
-	font-size: 10px;
-}
-li{
-	font-family: arial;
-	color: black;
-	font-size: 12px;
-}
-code{
-	background-color: white;
-	color:black;
->>>>>>> Stashed changes
 	padding: 3px;
 	border: 1px solid black;
 }

@@ -1,7 +1,6 @@
 h1 {
 	border: 1px solid black;
 }
-<<<<<<< Updated upstream
 
 #containerFeatured {
 	border: 1px solid blue;
@@ -31,44 +30,17 @@ h1 {
 	margin: 5px;
 	padding: 8px;
 }
-=======
-#containerFeatured {
-	border: 1px solid black;
-	width: 100%;
-}
-#leftColumn {
-	width: 22%;
-	float: left;
-}
-#centerColumn {
-	width: 50.75%;
-	float: left;
-}
-#rightColumn {
-	width: 22%;
-	float: left;
-}
->>>>>>> Stashed changes
 .box {
 	background-color: grey;
 	color: black;
 	border: 2px solid black;
 	border-radius: 8px;
-<<<<<<< Updated upstream
 	padding: 10px;
 	margin: 5px;
-=======
-	padding: 2px;
-	margin: 8px;
->>>>>>> Stashed changes
 }
 .clearFloat {
 	clear: both;
 }
 .column {
-<<<<<<< Updated upstream
 	height: 400px;
-=======
-	height: 500px;
->>>>>>> Stashed changes
 }
