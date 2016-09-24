@@ -1,4 +1,8 @@
 h1 {
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 	border: 3px solid black;
 	background-color: red;
 	padding: 100px;
@@ -23,4 +27,38 @@ code {
 	color: black;
 	padding: 3px;
 	border: 1px solid black;
+<<<<<<< Updated upstream
+=======
+=======
+    border: 3px solid black;
+    background-color: red;
+    padding: 100px;
+}
+h2 {
+    border: 1px solid green;
+    background-color: pink;
+    margin: 20px 50px 0px 50px;
+}
+p {
+    background-color: blue;
+    color: white;
+    padding: 50px 5px 20px 5px;
+    border: 5px solid black;
+}
+ol {
+    border: 1px solid black;
+    background-color: red;
+    margin: 20px 100px 0px 100px;
+}
+li {
+    border: 1px solid orange;
+    background-color: lightblue;
+}
+code {
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border: 1px solid black;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }

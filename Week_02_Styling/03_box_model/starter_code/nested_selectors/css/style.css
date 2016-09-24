@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 .divClass {
 	color: red;
 }
@@ -20,4 +24,40 @@ a {
 
 .underline {
 	text-decoration: underline;
+<<<<<<< Updated upstream
+=======
+=======
+p {
+	border: 3px solid black;
+}
+
+p span {
+	border: 1px solid green;
+	border-style: dashed;
+	margin: 20px 0px 20px 0px;
+
+}
+
+em { 
+	font-family: Arial;
+	color: green;
+}
+
+blockquote p em {
+	text-decoration: underline; 
+	color: red;
+	font-size: 30px;
+	background-color: yellow;
+}
+
+span {
+	display: block;
+	color: pink;
+	font-size: 40px;
+}
+
+div {
+	background-color: lightblue;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }

@@ -1,10 +1,25 @@
+<<<<<<< Updated upstream
 code {
+=======
+<<<<<<< Updated upstream
+code {
+=======
+code{
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 	border: 1px solid black;
 }
 strong {
 	font-weight: bold;
 }
+<<<<<<< Updated upstream
 
+=======
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 #notification {
 	background-color: blue;
 	color: white;
@@ -12,6 +27,10 @@ strong {
 }
 
 .message {
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 	border: 3px solid black;
 	color: white;
 	padding: 12px;
@@ -19,10 +38,27 @@ strong {
 	margin-bottom: 10px;
 }
 
+<<<<<<< Updated upstream
+=======
+=======
+	background-color: green;
+	border: 3px solid black;
+	color: white;
+	padding: 8px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+
+}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 .warning {
 	background-color: yellow;
 	color: black;
 }
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 
 .alert {
 	background-color: red;
@@ -30,4 +66,14 @@ strong {
 
 .success {
 	background-color: green;
+<<<<<<< Updated upstream
+=======
+=======
+.alert {
+	background-color: red;
+}
+.success {
+	background-color: lightgreen;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }

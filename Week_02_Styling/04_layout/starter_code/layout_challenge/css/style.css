@@ -1,4 +1,8 @@
 h1 {
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 	border: 1px solid black;
 }
 
@@ -43,4 +47,39 @@ h1 {
 }
 .column {
 	height: 400px;
+<<<<<<< Updated upstream
+=======
+=======
+    border: 1px solid black;
+}
+
+#container {
+    border: 1px solid blue;
+    width: 100%;
+    height: 400px;
+}
+
+#leftColumn {
+    height: 95%;
+    width: 75%;
+    float: left;
+}
+
+#rightColumn {
+    height: 95%;
+    width: 15%;
+    float: left;
+}
+
+.box {
+    background-color: grey;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px;
+}
+.clearFloat {
+    clear: both;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
