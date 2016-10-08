@@ -16,15 +16,32 @@ function switchWhite() {
 
 //jQuery
 $(function(){
-  $('#grayButton').click(function(){
+
+  //###############
+  /*
+  $('#grayButton').click(doSomething);
+
+  function doSomething(){
     $('body').css('backgroundColor','gray');
     console.log("grayButton has been clicked");
+  }
+  */
+  //###############
+
+  $('#grayButton').click(function(event){
+    doSomething();
   });
+
+  function doSomething()
+  {
+    $('body').css('backgroundColor','gray');
+    console.log("grayButton has been clicked");
+  }
 
   $('#whiteButton').click(function(){
     $('body').css('backgroundColor','white');
     console.log("whiteButton has been clicked");
   });
 
-  console.log("here");
 });
+

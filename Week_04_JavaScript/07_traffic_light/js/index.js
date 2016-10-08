@@ -1,21 +1,26 @@
 document.getElementById('stopButton').onclick = turnRed;
 document.getElementById('slowButton').onclick = turnYellow;
 document.getElementById('goButton').onclick = turnGreen;
+document.getElementById('resetButton').onclick = resetLights;
 
 function turnRed() {
-  document.getElementById('stopLight').style.backgroundColor = 'red';
+ resetLights();
+ document.getElementById('stopLight').style.backgroundColor = 'red';
+ document.getElementById('stopButton').innerHTML = "<div class="bulb">I'm a DIV!</div>";
 }
 
 function turnYellow() {
-  document.getElementById('slowLight').style.backgroundColor = 'yellow';
+ resetLights();    
+ document.getElementById('slowLight').style.backgroundColor = 'yellow';
 }
 
 function turnGreen() {
-  document.getElementById('goLight').style.backgroundColor = 'green';
+ resetLights();    
+ document.getElementById('goLight').style.backgroundColor = 'green';
 }
 
 function resetLights() {
-  document.getElementById('stopLight').style.backgroundColor = 'black';
-  document.getElementById('slowLight').style.backgroundColor = 'black';
-  document.getElementById('goLight').style.backgroundColor = 'black';
+ document.getElementById('stopLight').style.backgroundColor = 'black';
+ document.getElementById('slowLight').style.backgroundColor = 'black';
+ document.getElementById('goLight').style.backgroundColor = 'black';
 }

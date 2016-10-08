@@ -12,12 +12,20 @@
 
   For Example:
 */
-  $('#saveButton').click(doSomething)
+$(function(){
+  $('#saveButton').click(function(){
+    console.log("SAVE!");
+  });
 
-  function doSomething() {
-    $('.alert').slideToggle()
-    //$('li').attr('style','text-decoration: underline;');
+  $('#dismissButton').click(function(){
+    $('.alert').hide();
+    $('li').attr('style','text-decoration: underline;');
     console.log("Just did something");
-  }
+  })
+
+  $('#showButton').click(function(){
+    $('.alert').show();
+  });
 
   $('ul').children().css('color','gray');
+});
