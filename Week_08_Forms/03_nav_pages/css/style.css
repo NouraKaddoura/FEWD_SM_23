@@ -1,0 +1,20 @@
+body {
+    padding-top: 70px;
+}
+
+#box {
+    height: 800px;
+    background-color: red;
+}
+#news {
+    height: 800px;
+    background-color: grey; 
+}
+/*
+.panel {
+    padding-top: 70px;
+}
+*/
+h3 {
+    padding: 8px;
+}
