@@ -5,6 +5,11 @@
 	<title>Form Elements</title>
 	<link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        #male {
+            border: 1px solid purple;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -12,8 +17,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">Text Input</div>
             <div class="panel-body">
-                <label for="name">Name</label>
-                <input id="name" type="text" value="" placeholder="Enter your name">
+                <input id="name" type="text" value="" placeholder="">
                 <br>
                 <label for="password">Password</label>
                 <input id="password" type="password" name="password" value="">
@@ -31,6 +35,7 @@
                     <option value="CA">California</option>
                     <option value="NY">New York</option>
                     <option value="FL">Florida</option>
+                    <option value="TX">Texas</option>
                 </select>
             </div>
         </div>
@@ -43,6 +48,8 @@
                 <label for="male">Male</label>
                 <input id="female" type="radio" name="gender" value="female">
                 <label for="female">Female</label>
+                <input id="other" type="radio" name="gender" value="other">
+                <label for="other">Other</label>
             </div>
         </div>
 
